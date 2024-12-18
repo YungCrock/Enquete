@@ -117,3 +117,22 @@ button:hover {
     margin-top: 0.9rem;
     font-size: 25px;
 }
+
+@media screen and (max-width: 620px) {
+    html {
+        font-size: 14px;
+    }
+
+    .form {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .header {
+        padding: 15px;
+    }
+}
